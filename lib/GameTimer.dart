@@ -15,7 +15,7 @@ class GameTimer extends StatefulWidget {
   _GameTimerState createState() => _GameTimerState();
 }
 
-  /**
+/**
  * GameTimer state
  * @author sean
  */
@@ -46,13 +46,12 @@ class _GameTimerState extends State<GameTimer> {
   Widget build(BuildContext context) {
     return Material(
       child: Align(
-        alignment: Alignment.bottomCenter,
+        alignment: Alignment.center,
         child: Text(
           '$_time',
           style: TextStyle(
             fontSize: 18,
             color: Colors.black,
-            decoration: null,
           )
         )
       ),
